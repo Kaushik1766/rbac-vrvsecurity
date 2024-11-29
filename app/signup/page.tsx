@@ -179,10 +179,11 @@ export default function AnimatedSignup() {
                             Create Account
                         </Button>
                     </motion.div>
+
                 </form>
                 <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
                     Already have an account?{' '}
-                    <a href="#" className="font-medium text-primary hover:text-primary/80 dark:text-primary-foreground dark:hover:text-primary-foreground/80">
+                    <a href="/login" className="font-medium text-primary hover:text-primary/80 dark:text-primary-foreground dark:hover:text-primary-foreground/80">
                         Sign in
                     </a>
                 </p>

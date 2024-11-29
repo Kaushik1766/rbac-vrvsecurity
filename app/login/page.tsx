@@ -116,6 +116,12 @@ export default function AnimatedLogin() {
                         </Button>
                     </motion.div>
                 </form>
+                <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
+                    Dont have an account?{' '}
+                    <a href="/signup" className="font-medium text-primary hover:text-primary/80 dark:text-primary-foreground dark:hover:text-primary-foreground/80">
+                        Sign up
+                    </a>
+                </p>
             </motion.div>
         </div>
     )
