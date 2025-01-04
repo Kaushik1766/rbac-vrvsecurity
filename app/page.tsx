@@ -21,7 +21,7 @@ export default function LandingPage() {
           Role-Based Access Control with Next.js
         </h1>
         <p className="text-lg text-gray-700 dark:text-gray-300">
-          Assignment for VRV Security
+          user credentials kaushiksaha004@gmail.com 1234 for admin login
         </p>
         <div className="flex justify-center space-x-4">
           <Button className="px-6 py-3" onClick={() => router.push('/login')}>Get Started</Button>
